@@ -17,7 +17,8 @@ public class ComplexJsonParse {
 		//get purchase amount
 		int psamt = js.getInt("dashboard.purchaseAmount");
 		System.out.println(psamt);	
-		
+		System.out.println(psamt);	
+		System.out.println(psamt);	
 		//get first course title
 		String title = js.get("courses[0].title");
 		System.out.println(title);
